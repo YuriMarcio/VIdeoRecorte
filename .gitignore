@@ -1,0 +1,22 @@
+# Ignorar ambientes virtuais do Python
+venv/
+.env
+
+# Ignorar arquivos de compilação do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorar arquivos gerados pelo PyInstaller
+*.spec
+dist/
+build/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
